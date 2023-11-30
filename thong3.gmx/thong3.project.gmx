@@ -5,9 +5,37 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
-  <paths name="paths"/>
+  <sprites name="sprites">
+    <sprite>sprites\s_ninja</sprite>
+    <sprite>sprites\s_aa</sprite>
+    <sprite>sprites\s_bullet</sprite>
+    <sprite>sprites\s_pl</sprite>
+    <sprites name="s_magic">
+      <sprite>sprites\s_magic_walk</sprite>
+      <sprite>sprites\s_magic_die</sprite>
+      <sprite>sprites\s_magic_idle</sprite>
+      <sprite>sprites\s_magic_att</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\b_title1</background>
+    <background>background\b_title2</background>
+  </backgrounds>
+  <paths name="paths">
+    <path>paths\path0</path>
+    <path>paths\path1</path>
+    <path>paths\path2</path>
+  </paths>
+  <objects name="objects">
+    <object>objects\o_o</object>
+    <object>objects\o_Oo</object>
+    <object>objects\o_bullet</object>
+    <object>objects\o_pl</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\r_1</room>
+    <room>rooms\r_start</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
