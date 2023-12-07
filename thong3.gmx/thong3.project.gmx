@@ -16,25 +16,115 @@
       <sprite>sprites\s_magic_idle</sprite>
       <sprite>sprites\s_magic_att</sprite>
     </sprites>
+    <sprites name="teower">
+      <sprite>sprites\s_teower_1</sprite>
+      <sprite>sprites\s_teower_2</sprite>
+      <sprite>sprites\teower_3</sprite>
+      <sprite>sprites\s_teower_4</sprite>
+    </sprites>
+    <sprites name="tower">
+      <sprite>sprites\s_tower_1</sprite>
+      <sprite>sprites\s_tower_2</sprite>
+      <sprite>sprites\s_tower_3</sprite>
+    </sprites>
+    <sprites name="s_tuwer">
+      <sprite>sprites\s_tuwer_1</sprite>
+      <sprite>sprites\s_tuwer_2</sprite>
+      <sprite>sprites\s_tuwer_3</sprite>
+    </sprites>
+    <sprites name="stone tower">
+      <sprite>sprites\s_sttower_1</sprite>
+      <sprite>sprites\s_sttower_2</sprite>
+      <sprite>sprites\s_sttower</sprite>
+    </sprites>
+    <sprites name="wall">
+      <sprite>sprites\s_wall_1</sprite>
+      <sprite>sprites\s_wall_2</sprite>
+      <sprite>sprites\s_wall_3</sprite>
+    </sprites>
+    <sprite>sprites\s_enemy_walk</sprite>
+    <sprite>sprites\s_enemy_att</sprite>
+    <sprites name="button">
+      <sprite>sprites\s_play</sprite>
+      <sprite>sprites\s_setting</sprite>
+      <sprite>sprites\s_music</sprite>
+      <sprite>sprites\s_musicoff</sprite>
+      <sprite>sprites\s_facebook</sprite>
+      <sprite>sprites\s_google</sprite>
+      <sprite>sprites\s_twitter</sprite>
+      <sprite>sprites\s_rope</sprite>
+      <sprite>sprites\s_text</sprite>
+    </sprites>
+    <sprite>sprites\s_mabullet</sprite>
+    <sprite>sprites\s_yeti</sprite>
+    <sprite>sprites\s_diamond</sprite>
+    <sprites name="di">
+      <sprite>sprites\s_board</sprite>
+      <sprite>sprites\s_ez</sprite>
+      <sprite>sprites\s_medium</sprite>
+      <sprite>sprites\s_hard</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\b_title1</background>
     <background>background\b_title2</background>
+    <background>background\bg_1</background>
+    <background>background\bg_2</background>
+    <background>background\bg_3</background>
+    <background>background\bg_4</background>
   </backgrounds>
   <paths name="paths">
-    <path>paths\path0</path>
-    <path>paths\path1</path>
-    <path>paths\path2</path>
+    <paths name="r_stater">
+      <path>paths\p_1</path>
+      <path>paths\p_2</path>
+      <path>paths\p_3</path>
+    </paths>
+    <paths name="r_1">
+      <path>paths\path0</path>
+      <path>paths\path1</path>
+      <path>paths\path2</path>
+    </paths>
+    <paths name="r_2">
+      <path>paths\p_1_2</path>
+    </paths>
+    <paths name="r_3">
+      <path>paths\p_1_3</path>
+      <path>paths\p_2_3</path>
+    </paths>
   </paths>
   <objects name="objects">
-    <object>objects\o_o</object>
-    <object>objects\o_Oo</object>
     <object>objects\o_bullet</object>
     <object>objects\o_pl</object>
+    <object>objects\o_teower</object>
+    <object>objects\s_wall</object>
+    <object>objects\o_tuwer</object>
+    <object>objects\o_sttower</object>
+    <object>objects\o_tower</object>
+    <object>objects\o_target_controller</object>
+    <object>objects\o_enemy</object>
+    <object>objects\o_enemy_2</object>
+    <object>objects\o_yeti</object>
+    <objects name="button">
+      <object>objects\o_play</object>
+      <object>objects\o_google</object>
+      <object>objects\o_setting</object>
+      <object>objects\o_facebook</object>
+      <object>objects\o_twitter</object>
+      <object>objects\o_sound</object>
+      <object>objects\o_text</object>
+      <object>objects\o_rope</object>
+    </objects>
+    <object>objects\di</object>
+    <object>objects\o_ez</object>
+    <object>objects\o_medium</object>
+    <object>objects\o_hard</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\r_1</room>
     <room>rooms\r_start</room>
+    <room>rooms\r_di</room>
+    <room>rooms\r_1</room>
+    <room>rooms\r_2</room>
+    <room>rooms\r_3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

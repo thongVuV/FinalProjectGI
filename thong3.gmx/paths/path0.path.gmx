@@ -6,7 +6,7 @@
   <hsnap>20</hsnap>
   <vsnap>20</vsnap>
   <points>
-    <point>1180,280,100</point>
+    <point>1200,260,100</point>
     <point>1140,420,100</point>
     <point>1100,520,100</point>
     <point>1000,560,100</point>
@@ -20,6 +20,6 @@
     <point>540,180,100</point>
     <point>440,140,100</point>
     <point>340,120,100</point>
-    <point>260,20,100</point>
+    <point>200,-20,100</point>
   </points>
 </path>
