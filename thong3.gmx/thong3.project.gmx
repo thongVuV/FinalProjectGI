@@ -64,6 +64,7 @@
       <sprite>sprites\s_medium</sprite>
       <sprite>sprites\s_hard</sprite>
     </sprites>
+    <sprite>sprites\s_coin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\b_title1</background>
@@ -80,9 +81,9 @@
       <path>paths\p_3</path>
     </paths>
     <paths name="r_1">
-      <path>paths\path0</path>
-      <path>paths\path1</path>
-      <path>paths\path2</path>
+      <path>paths\p_1_1</path>
+      <path>paths\p_2_1</path>
+      <path>paths\p_3_1</path>
     </paths>
     <paths name="r_2">
       <path>paths\p_1_2</path>
@@ -118,7 +119,15 @@
     <object>objects\o_ez</object>
     <object>objects\o_medium</object>
     <object>objects\o_hard</object>
+    <object>objects\o_controller_r1</object>
+    <object>objects\o_timeline_r1</object>
+    <object>objects\o_play_room</object>
+    <object>objects\o_coin</object>
+    <object>objects\o_controller_score</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\t_r1</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\r_start</room>
     <room>rooms\r_di</room>

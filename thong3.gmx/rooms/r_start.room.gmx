@@ -61,6 +61,7 @@
     <instance objName="o_rope" x="896" y="384" name="inst_057A5ECA" locked="0" code="" scaleX="1.60000002384186" scaleY="0.813559293746948" colour="4294967295" rotation="0"/>
     <instance objName="o_rope" x="1408" y="256" name="inst_2F8BFFA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_rope" x="512" y="256" name="inst_C106C6FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_coin" x="1728" y="0" name="inst_060E6ED6" locked="0" code="" scaleX="1.88235294818878" scaleY="1.88235294818878" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
