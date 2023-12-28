@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\so_1</sound>
+    <sound>sound\so_fall</sound>
+    <sound>sound\so_win</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\s_ninja</sprite>
     <sprite>sprites\s_aa</sprite>
@@ -18,9 +22,8 @@
     </sprites>
     <sprites name="teower">
       <sprite>sprites\s_teower_1</sprite>
-      <sprite>sprites\s_teower_2</sprite>
-      <sprite>sprites\teower_3</sprite>
-      <sprite>sprites\s_teower_4</sprite>
+      <sprite>sprites\teower_2</sprite>
+      <sprite>sprites\s_teower_3</sprite>
     </sprites>
     <sprites name="tower">
       <sprite>sprites\s_tower_1</sprite>
@@ -65,6 +68,10 @@
       <sprite>sprites\s_hard</sprite>
     </sprites>
     <sprite>sprites\s_coin</sprite>
+    <sprite>sprites\s_bower</sprite>
+    <sprite>sprites\s_teower</sprite>
+    <sprite>sprites\s_20</sprite>
+    <sprite>sprites\s_30</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\b_title1</background>
@@ -124,6 +131,7 @@
     <object>objects\o_play_room</object>
     <object>objects\o_coin</object>
     <object>objects\o_controller_score</object>
+    <object>objects\o_bower</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\t_r1</timeline>
