@@ -38,7 +38,7 @@
     <sprites name="stone tower">
       <sprite>sprites\s_sttower_1</sprite>
       <sprite>sprites\s_sttower_2</sprite>
-      <sprite>sprites\s_sttower</sprite>
+      <sprite>sprites\s_sttower_3</sprite>
     </sprites>
     <sprites name="wall">
       <sprite>sprites\s_wall_1</sprite>
@@ -69,9 +69,14 @@
     </sprites>
     <sprite>sprites\s_coin</sprite>
     <sprite>sprites\s_bower</sprite>
-    <sprite>sprites\s_teower</sprite>
+    <sprite>sprites\s_10</sprite>
     <sprite>sprites\s_20</sprite>
     <sprite>sprites\s_30</sprite>
+    <sprite>sprites\s_x</sprite>
+    <sprite>sprites\s_10_1</sprite>
+    <sprite>sprites\s_10_2</sprite>
+    <sprite>sprites\s_10_3</sprite>
+    <sprite>sprites\s_block</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\b_title1</background>
@@ -104,7 +109,6 @@
     <object>objects\o_bullet</object>
     <object>objects\o_pl</object>
     <object>objects\o_teower</object>
-    <object>objects\s_wall</object>
     <object>objects\o_tuwer</object>
     <object>objects\o_sttower</object>
     <object>objects\o_tower</object>
@@ -126,20 +130,28 @@
     <object>objects\o_ez</object>
     <object>objects\o_medium</object>
     <object>objects\o_hard</object>
-    <object>objects\o_controller_r1</object>
     <object>objects\o_timeline_r1</object>
     <object>objects\o_play_room</object>
+    <object>objects\o_controller_r1</object>
     <object>objects\o_coin</object>
     <object>objects\o_controller_score</object>
     <object>objects\o_bower</object>
+    <object>objects\o_x</object>
+    <object>objects\o_10_1</object>
+    <object>objects\o_10_2</object>
+    <object>objects\o_10_3</object>
+    <object>objects\o_tower_choose</object>
+    <object>objects\o_tower_controller</object>
+    <object>objects\o_enemy_controller</object>
+    <object>objects\o_block</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\t_r1</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\r_1</room>
     <room>rooms\r_start</room>
     <room>rooms\r_di</room>
-    <room>rooms\r_1</room>
     <room>rooms\r_2</room>
     <room>rooms\r_3</room>
   </rooms>
