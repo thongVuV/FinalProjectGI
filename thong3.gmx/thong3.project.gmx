@@ -77,6 +77,8 @@
     <sprite>sprites\s_10_2</sprite>
     <sprite>sprites\s_10_3</sprite>
     <sprite>sprites\s_block</sprite>
+    <sprite>sprites\s_bower_1</sprite>
+    <sprite>sprites\s_bower_2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\b_title1</background>
