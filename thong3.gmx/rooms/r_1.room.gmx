@@ -59,8 +59,7 @@
     <instance objName="o_block" x="1120" y="160" name="inst_93B43D17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_controller_r1" x="0" y="0" name="inst_5C34CB13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_money" x="32" y="0" name="inst_CBA77D4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_play" x="864" y="544" name="inst_42643927" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_enemy" x="0" y="736" name="inst_6F728E1A" locked="0" code="" scaleX="1.03896105289459" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_play_room" x="864" y="544" name="inst_249BD458" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="b_title2" x="480" y="0" w="90" h="90" xo="0" yo="0" id="10000001" name="inst_53F2D28B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

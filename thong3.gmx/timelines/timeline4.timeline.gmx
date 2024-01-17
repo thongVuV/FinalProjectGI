@@ -19,14 +19,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj1 = instance_create(-64, 730, o_enemy);
+            <string>obj1 = instance_create(1800, 800, o_enemy);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_1_3, 5, path_action_stop, false)
 }
 
-obj1 = instance_create(-64, 700, o_enemy);
+obj1 = instance_create(1820, 820, o_enemy_2);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_1_3, 5, path_action_stop, false)
 }
 </string>
           </argument>
@@ -53,14 +53,14 @@ with (obj1) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj1 = instance_create(-64, 730, o_enemy_2);
+            <string>obj1 = instance_create(1800, 160, o_enemy_2);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_2_3, 5, path_action_stop, false)
 }
 
-obj1 = instance_create(-64, 700, o_enemy_2);
+obj1 = instance_create(1800, 180, o_yeti);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_2_3, 5, path_action_stop, false)
 }
 </string>
           </argument>
@@ -87,14 +87,14 @@ with (obj1) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj1 = instance_create(-64, 730, o_enemy);
+            <string>obj1 = instance_create(1800, 160, o_yeti);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_2_3, 5, path_action_stop, false)
 }
 
-obj1 = instance_create(-64, 700, o_enemy);
+obj1 = instance_create(1800, 800, o_yeti);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_1_3, 5, path_action_stop, false)
 }
 </string>
           </argument>
@@ -121,14 +121,14 @@ with (obj1) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj1 = instance_create(-64, 730, o_enemy);
+            <string>obj1 = instance_create(1800, 800, o_enemy);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_1_3, 5, path_action_stop, false)
 }
 
-obj1 = instance_create(-64, 700, o_enemy);
+obj1 = instance_create(1820, 820, o_enemy_2);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_1_3, 5, path_action_stop, false)
 }
 </string>
           </argument>
@@ -189,6 +189,35 @@ with (obj1) {
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>obj1 = instance_create(1800, 160, o_yeti);
+with (obj1) {
+    path_start(p_2_3, 5, path_action_stop, false)
+}
+
+obj1 = instance_create(1800, 800, o_yeti);
+with (obj1) {
+    path_start(p_1_3, 5, path_action_stop, false)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>obj1 = instance_create(-64, 730, o_enemy_2);
 with (obj1) {
     path_start(p_1_2, 5, path_action_stop, false)
@@ -223,9 +252,9 @@ with (obj1) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj1 = instance_create(-64, 730, o_block_win);
+            <string>obj1 = instance_create(1800, 800, o_block_win);
 with (obj1) {
-    path_start(p_1_2, 5, path_action_stop, false)
+    path_start(p_1_3, 5, path_action_stop, false)
 }
 </string>
           </argument>

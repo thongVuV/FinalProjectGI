@@ -166,9 +166,9 @@
     <timeline>timelines\t_r3</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\r_1</room>
     <room>rooms\r_start</room>
     <room>rooms\r_di</room>
+    <room>rooms\r_1</room>
     <room>rooms\r_2</room>
     <room>rooms\r_3</room>
     <room>rooms\r_win</room>
