@@ -23,6 +23,16 @@
 with (obj1) {
     path_start(p_1_1, 5, path_action_stop, false)
 }
+
+obj1 = instance_create(220, 0, o_enemy);
+with (obj1) {
+    path_start(p_1_1, 5, path_action_stop, false)
+}
+
+obj1 = instance_create(0, 736, o_enemy);
+with (obj1) {
+    path_start(p_1_2, 5, path_action_stop, false)
+}
 </string>
           </argument>
         </arguments>
