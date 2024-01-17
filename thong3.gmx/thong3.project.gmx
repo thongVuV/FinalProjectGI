@@ -8,8 +8,10 @@
     <sound>sound\so_1</sound>
     <sound>sound\so_fall</sound>
     <sound>sound\so_win</sound>
+    <sound>sound\so_game</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\s_lose</sprite>
     <sprite>sprites\s_ninja</sprite>
     <sprite>sprites\s_aa</sprite>
     <sprite>sprites\s_bullet</sprite>
@@ -76,6 +78,8 @@
     <sprite>sprites\s_block</sprite>
     <sprite>sprites\s_hp</sprite>
     <sprite>sprites\o_win</sprite>
+    <sprite>sprites\s_win</sprite>
+    <sprite>sprites\s_retry</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\b_title1</background>
@@ -159,6 +163,12 @@
       <object>objects\o_timeline_r3</object>
       <object>objects\o_money</object>
     </objects>
+    <object>objects\o_winner</object>
+    <object>objects\o_lose</object>
+    <object>objects\o_retry</object>
+    <object>objects\o_so_win</object>
+    <object>objects\o_s_fell</object>
+    <object>objects\o_so_game</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\t_r1</timeline>

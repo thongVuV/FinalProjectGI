@@ -70,7 +70,8 @@ if (nearest_x != noone and nearest_y != noone) {
         count++
     }
     if (count == attack_speed) {
-        bullet = instance_create (x, y, o_bullet)
+        audio_play_sound(so_1, 10, false)
+         bullet = instance_create (x, y, o_bullet)
         bullet.direction = point_direction (x, y, nearest_x, nearest_y)
         bullet.speed = 50;
         bullet.image_angle = bullet.direction

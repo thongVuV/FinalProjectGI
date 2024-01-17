@@ -75,7 +75,7 @@
           </argument>
           <argument>
             <kind>5</kind>
-            <sprite>s_hp</sprite>
+            <sprite>-100</sprite>
           </argument>
         </arguments>
       </action>
@@ -95,7 +95,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>1500</string>
+            <string>1000</string>
           </argument>
           <argument>
             <kind>0</kind>

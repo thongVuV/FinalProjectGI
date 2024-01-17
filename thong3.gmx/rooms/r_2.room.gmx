@@ -61,8 +61,8 @@
     <instance objName="o_controller_r2" x="0" y="0" name="inst_A03212F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_money" x="32" y="0" name="inst_6DAA019C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_block" x="1728" y="1024" name="inst_8040CF61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_enemy" x="0" y="832" name="inst_E730404A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_play_room" x="896" y="544" name="inst_18CA0B8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_so_game" x="64" y="0" name="inst_712E51A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_play" x="992" y="480" name="inst_1F8103F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
