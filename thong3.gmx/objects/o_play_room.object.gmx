@@ -28,6 +28,12 @@
             <string>if (global.current_room == 1) {
     o_controller_r1.play = true
 }
+if (global.current_room == 2) {
+    o_controller_r2.play = true
+}
+if (global.current_room == 3) {
+    o_controller_r3.play = true
+}
 instance_destroy()
 
 </string>

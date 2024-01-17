@@ -26,12 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>position = instance_nearest(x, y, o_x)
-instance_create(position.x, position.y, o_teower)
-
-with (position) {
-    event_perform(ev_mouse, ev_left_press)
+if (score &gt;= 10) {
+    score -= 10
+    instance_create(position.x, position.y, o_teower)
+    
+    with (position) {
+        event_perform(ev_mouse, ev_left_press)
+    }
 }
-
 </string>
           </argument>
         </arguments>

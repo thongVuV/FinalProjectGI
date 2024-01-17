@@ -21,21 +21,19 @@
       <sprite>sprites\s_magic_att</sprite>
     </sprites>
     <sprites name="teower">
+      <sprite>sprites\s_bower_teo</sprite>
       <sprite>sprites\s_teower_1</sprite>
       <sprite>sprites\teower_2</sprite>
       <sprite>sprites\s_teower_3</sprite>
-    </sprites>
-    <sprites name="tower">
-      <sprite>sprites\s_tower_1</sprite>
-      <sprite>sprites\s_tower_2</sprite>
-      <sprite>sprites\s_tower_3</sprite>
     </sprites>
     <sprites name="s_tuwer">
       <sprite>sprites\s_tuwer_1</sprite>
       <sprite>sprites\s_tuwer_2</sprite>
       <sprite>sprites\s_tuwer_3</sprite>
+      <sprite>sprites\s_bower_tuwer</sprite>
     </sprites>
     <sprites name="stone tower">
+      <sprite>sprites\s_bower_stt</sprite>
       <sprite>sprites\s_sttower_1</sprite>
       <sprite>sprites\s_sttower_2</sprite>
       <sprite>sprites\s_sttower_3</sprite>
@@ -68,7 +66,6 @@
       <sprite>sprites\s_hard</sprite>
     </sprites>
     <sprite>sprites\s_coin</sprite>
-    <sprite>sprites\s_bower</sprite>
     <sprite>sprites\s_10</sprite>
     <sprite>sprites\s_20</sprite>
     <sprite>sprites\s_30</sprite>
@@ -77,8 +74,8 @@
     <sprite>sprites\s_10_2</sprite>
     <sprite>sprites\s_10_3</sprite>
     <sprite>sprites\s_block</sprite>
-    <sprite>sprites\s_bower_1</sprite>
-    <sprite>sprites\s_bower_2</sprite>
+    <sprite>sprites\s_hp</sprite>
+    <sprite>sprites\o_win</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\b_title1</background>
@@ -107,17 +104,10 @@
       <path>paths\p_2_3</path>
     </paths>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\f_main</font>
+  </fonts>
   <objects name="objects">
-    <object>objects\o_bullet</object>
-    <object>objects\o_pl</object>
-    <object>objects\o_teower</object>
-    <object>objects\o_tuwer</object>
-    <object>objects\o_sttower</object>
-    <object>objects\o_tower</object>
-    <object>objects\o_target_controller</object>
-    <object>objects\o_enemy</object>
-    <object>objects\o_enemy_2</object>
-    <object>objects\o_yeti</object>
     <objects name="button">
       <object>objects\o_play</object>
       <object>objects\o_google</object>
@@ -132,23 +122,48 @@
     <object>objects\o_ez</object>
     <object>objects\o_medium</object>
     <object>objects\o_hard</object>
-    <object>objects\o_timeline_r1</object>
     <object>objects\o_play_room</object>
-    <object>objects\o_controller_r1</object>
     <object>objects\o_coin</object>
-    <object>objects\o_controller_score</object>
-    <object>objects\o_bower</object>
-    <object>objects\o_x</object>
-    <object>objects\o_10_1</object>
-    <object>objects\o_10_2</object>
-    <object>objects\o_10_3</object>
-    <object>objects\o_tower_choose</object>
-    <object>objects\o_tower_controller</object>
-    <object>objects\o_enemy_controller</object>
+    <object>objects\o_bullet</object>
     <object>objects\o_block</object>
+    <object>objects\o_block_win</object>
+    <objects name="tower">
+      <object>objects\o_teower</object>
+      <object>objects\o_tuwer</object>
+      <object>objects\o_sttower</object>
+      <object>objects\o_bower_stt</object>
+      <object>objects\o_bower_teo</object>
+      <object>objects\o_bower_tuwer</object>
+      <object>objects\o_tower_choose</object>
+      <object>objects\o_tower_controller</object>
+    </objects>
+    <objects name="icon">
+      <object>objects\o_pl</object>
+      <object>objects\o_x</object>
+      <object>objects\o_10_1</object>
+      <object>objects\o_10_2</object>
+      <object>objects\o_10_3</object>
+    </objects>
+    <objects name="enermy">
+      <object>objects\o_enemy</object>
+      <object>objects\o_enemy_2</object>
+      <object>objects\o_yeti</object>
+      <object>objects\o_enemy_controller</object>
+    </objects>
+    <objects name="controller">
+      <object>objects\o_controller_r1</object>
+      <object>objects\o_controller_r2</object>
+      <object>objects\o_controller_r3</object>
+      <object>objects\o_timeline_r1</object>
+      <object>objects\o_timeline_r2</object>
+      <object>objects\o_timeline_r3</object>
+      <object>objects\o_money</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\t_r1</timeline>
+    <timeline>timelines\t_r2</timeline>
+    <timeline>timelines\t_r3</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\r_1</room>
@@ -156,6 +171,8 @@
     <room>rooms\r_di</room>
     <room>rooms\r_2</room>
     <room>rooms\r_3</room>
+    <room>rooms\r_win</room>
+    <room>rooms\r_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
