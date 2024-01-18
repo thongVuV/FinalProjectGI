@@ -75,7 +75,7 @@
           </argument>
           <argument>
             <kind>5</kind>
-            <sprite>-100</sprite>
+            <sprite>s_hp</sprite>
           </argument>
         </arguments>
       </action>
