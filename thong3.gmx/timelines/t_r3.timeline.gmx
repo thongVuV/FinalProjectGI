@@ -205,7 +205,7 @@ with (obj1) {
     </event>
   </entry>
   <entry>
-    <step>590</step>
+    <step>600</step>
     <event>
       <action>
         <libid>1</libid>
